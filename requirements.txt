@@ -1,0 +1,7 @@
+torch
+transformers
+google-cloud-aiplatform
+diffusers
+vendi_score
+unittest2
+google-generativeai
