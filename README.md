@@ -78,7 +78,7 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 
 ## Dataset
 
-CUBE dataset cultural artifacts across 8 countries (Brazil, France, India, Italy, Japan, Nigeria, Turkey, and USA) and 3 domains (cuisine, landmarks, art). 
+CUBE dataset contains cultural artifacts across 8 countries (Brazil, France, India, Italy, Japan, Nigeria, Turkey, and USA) and 3 domains (cuisine, landmarks, art). 
 
 The dataset is divided into two parts:
 1. **CUBE-CSpace**: a collection of 300k cultural artifacts, intended to be used as grounding for diversity evaluation. For example,
@@ -94,7 +94,7 @@ The dataset is divided into two parts:
 
 ## Citation
 
-If you find the code useful, please cite our paper:
+If you find the code or datset useful, please cite our paper:
 
 ```
 @misc{kannen2024aestheticsculturalcompetencetexttoimage,
