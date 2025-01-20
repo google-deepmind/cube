@@ -3,7 +3,8 @@
 ## Code for [Beyond Aesthetics: Cultural Competence in Text-to-Image Models](https://arxiv.org/abs/2407.06863) published in NeurIPS 2024 (Track on Datasets and Benchmarks)
 
 
-Current T2I benchmarks primarily focus on faithfulness, aesthetics, and realism of generated images, overlooking the critical dimension of cultural competence. In this work, we introduce a framework to evaluate cultural competence of T2I models along two crucial dimensions: cultural awareness and cultural diversity, and present a scalable approach using a combination of structured knowledge base  (KB) and large language models (LLMs) to build a large dataset of cultural artifacts to enable this evaluation. In particular, we apply this approach to build CUBE (CUltural BEnchmark for Text-to-Image models), a first-of-its-kind benchmark to evaluate cultural competence of T2I models. CUBE covers cultural artifacts associated with 8 countries across different geo-cultural regions and along 3 concepts: cuisine, landmarks, and art. We also introduce cultural diversity as a novel T2I evaluation component, leveraging quality-weighted Vendi score. In this repository, we release the 1) code for CUBE extraction from WikiData and 2) a notebook with the  implementation of the cultural diversity evaluation aspect for T2I.
+Current T2I benchmarks primarily focus on faithfulness, aesthetics, and realism of generated images, overlooking the critical dimension of cultural competence. In this work, we introduce a framework to evaluate cultural competence of T2I models along two crucial dimensions: cultural awareness and cultural diversity, and present a scalable approach using a combination of structured knowledge base  (KB) and large language models (LLMs) to build a large dataset of cultural artifacts to enable this evaluation. In particular, we apply this approach to build CUBE (CUltural BEnchmark for Text-to-Image models), a first-of-its-kind benchmark to evaluate cultural competence of T2I models. CUBE covers cultural artifacts associated with 8 countries across different geo-cultural regions and along 3 concepts: cuisine, landmarks, and art. We also introduce cultural diversity as a novel T2I evaluation component, leveraging quality-weighted Vendi score. In this repository, we release the 1) code for CUBE extraction from WikiData, 2) a notebook [![Open In
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/cube/blob/master/cultural_diversity.ipynb) with the  implementation of the cultural diversity evaluation aspect for T2I and 3) CUBE dataset containing CUBE CSpace and CUBE-1K prompts.
 
 ## CUBE Extraction
 
@@ -71,7 +72,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-Refer to the cultural_diversity.ipynb for a sample usage of the evaluation metric.
+Refer to the cultural_diversity.ipynb [![Open In
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/cube/blob/master/cultural_diversity.ipynb) for a sample usage of the evaluation metric.
+
 
 ## Dataset
 
