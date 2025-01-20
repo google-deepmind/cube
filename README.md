@@ -118,7 +118,7 @@ https://www.apache.org/licenses/LICENSE-2.0
 
 ### Dataset
 
-We distribute CUBE datset under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license 
+We distribute CUBE dataset under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license 
 
 All other materials are licensed under the Creative Commons Attribution 4.0
 International License (CC-BY). You may obtain a copy of the CC-BY license at:
