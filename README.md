@@ -110,9 +110,10 @@ If you find the code or datset useful, please cite our paper:
 
 ## License
 
+Copyright 2025 DeepMind Technologies Limited
+
 ### Software
 
-Copyright 2025 DeepMind Technologies Limited
 
 All software is licensed under the Apache License, Version 2.0 (Apache 2.0);
 you may not use this file except in compliance with the Apache 2.0 license.
